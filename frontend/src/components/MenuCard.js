@@ -1,3 +1,4 @@
+import API_URL from '../config';
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import { FaCoffee, FaMugHot, FaCookie, FaBirthdayCake } from 'react-icons/fa';
