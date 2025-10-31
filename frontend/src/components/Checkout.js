@@ -43,7 +43,7 @@ function Checkout({ cart, clearCart, getCartTotal }) {
         }))
       };
 
-      const response = await axios.post('http://localhost:5000/api/orders', orderData);
+      const response = await axios.post('${API_URL}/api/orders', orderData);
 
       if (response.data.success) {
         alert('Order placed successfully! Order ID: ' + response.data.order._id);
